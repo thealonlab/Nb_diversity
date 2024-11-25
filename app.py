@@ -22,8 +22,9 @@ def compute_probabilities(unique, total, upper):
 
 # Streamlit App
 def main():
-    st.title("Probability Plot Web App")
-    st.write("Calculate and visualize the probability of obtaining unique clones.")
+    st.title("Nanobody Library Diversity Probability Simulator")
+    st.write("Simulate and visualize the diversity of your nanobody library")
+    st.write("To get started you need to isolate and sequence individual clones from your library")
 
     # Streamlit input widgets
     total = st.number_input("Enter the total number of clones you sequenced:", min_value=1, value=20, step=1)
